@@ -4,20 +4,36 @@
 
     <head>
     	<img src="images/bannertemp.PNG" alt="HTML5 Icon" style="width:100%"></img>
-        <link rel="stylesheet" type="text/css" href="css/nav_bar.css">
+        <!----<link rel="stylesheet" type="text/css" href="css/nav_bar.css">---->
 	<link rel="stylesheet" type="text/css" href="css/fullpage.css">
-	
+	<style>
+	/* Style for our header texts
+	* --------------------------------------- */
+	/* Fixed header and footer.
+	* --------------------------------------- */
+	#navbar{
+		position:fixed;
+		height: 50px;
+		display:block;
+		width: 100%;
+		background: #333;
+		z-index:9;
+		text-align:center;
+		color: #f2f2f2;
+		padding: 20px 0 0 0;
+	}
+	</style>
     </head>
     <body>
-	
-	<div id="fullpage">
-	    <div class="section" id="section1">
-		<div id="navbar">
+	<div id="navbar">
 	  	    <a href="default.asp">HOME</a>
 	  	    <a href="news.asp">BLOG</a>
 	  	    <a href="contact.asp">FICTION</a>
 	  	    <a href="about.asp">STORY</a>
-		</div>
+	</div>
+	<div id="fullpage">
+	    <div class="section" id="section1">
+		welcome to my crib
 	    </div>
 	    <div class="section" id="section2">Some section2</div>
 	    <div class="section" id="section3">Some section3</div>
