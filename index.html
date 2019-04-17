@@ -13,8 +13,18 @@
 	</div>
     </head>
     <body>
-	hello
-	<img src="images/bannertemp.PNG" alt="HTML5 Icon" style="width:100%"></img>
+	<div id="fullpage">
+	    <div class="section" id="section1">Some section</div>
+	    <div class="section" id="section2">Some section</div>
+	    <div class="section" id="section3">Some section</div>
+	    <div class="section" id="section4">Some section</div>
+	</div>
+	<script type="text/javascript" src="js/fullpage.js"></script>
+	<script type="text/javascript">
+		var myFullpage = new fullpage('#fullpage', {
+			sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+		});
+	</script>
 	<script type="text/javascript" src="js/nav_bar.js"></script>
     </body>
 </html>
