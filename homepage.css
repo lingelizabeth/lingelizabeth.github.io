@@ -5,6 +5,13 @@
 	padding: 0;
 	margin: 0;
 }
+#home{
+	background-color:#FFFFF;
+	height:500;
+}
+#home-description{
+	width:400;
+}
 .display-topleft{position:absolute;left:0;top:0}
 .display-topright{position:absolute;right:0;top:0}
 .display-bottomleft{position:absolute;left:0;bottom:0}
