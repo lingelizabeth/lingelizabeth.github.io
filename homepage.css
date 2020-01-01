@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+.content{
+	width: 100%;
+	max-width:980;
+	padding: 0;
+	margin: 0;
+}
+.display-topleft{position:absolute;left:0;top:0}
+.display-topright{position:absolute;right:0;top:0}
+.display-bottomleft{position:absolute;left:0;bottom:0}
+.display-bottomright{position:absolute;right:0;bottom:0}
+.padding-small{padding:4px 8px!important}
+.padding{padding:8px 16px!important}
+.padding-large{padding:12px 24px!important}
+.padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.padding-32{padding-top:32px!important;padding-bottom:32px!important}
+.padding-48{padding-top:48px!important;padding-right:48px!important;padding-bottom:48px!important}
+.padding-48-lr{padding-left:48px!important;padding-right:48px!important;}
+.padding-64{padding-top:64px!important;padding-bottom:64px!important;}
+.padding-64-lr{padding-right:64px!important;padding-left:64px!important;}
+.display-container{position:relative}
+.quicksand{
+	font-family: 'Quicksand', sans-serif;
+}
+.playfair{
+	font-family:'Playfair Display', serif;
+}
+.roboto{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .5px;
+}
+.cedarville{
+	font-family: 'Cedarville Cursive', cursive;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+.black{
+	color:#272727;
+}
+/***colors:
+grey: #CACFD6
+black: #272727
+pink: #FFCAD4
+yellow: FED766
+blue: #2F6690
+****/
