@@ -6,10 +6,25 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" type="text/css" href="homepage.css">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:400,600&display=swap" rel="stylesheet">
+
+<!-- animations on scroll -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+
+<!-- next 3: stuff for animated scroll -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script> 
+<script src="./jquery.localScroll-2.0.0/jquery.localScroll.js" type="text/javascript"></script> 
+<script src="./jquery.scrollTo-2.1.2/jquery.scrollTo.js" type="text/javascript"></script> 
+<script type="text/javascript">
+  $(document).ready(function() {
+     $.localScroll({duration:800});
+  });
+  </script>
+
 </head>
 <body>
 
-  <div class="topnav">
+  <div class="topnav" id="topnav">
+
     <a class="active" href="#home">Home</a>
     <a href="#projects">Projects</a>
     <a href="#portfolio">Portfolio</a>
@@ -17,48 +32,61 @@
     
   </div>
 
+<div class="content" name="home">
 <div id="block1">
+  
+  <div class="scrollanimation animated fadeIn adr-5 adl-5">
   <h1 class="playfair" id="fullname">Elizabeth <br>Ling</h1>
+  </div>
+
   <div id="home-description">
   <p class="black" style="margin: 0px 0px 10px 0px;" >
     I'm a Computer Science major at Harvard University who's interested
      in <a href="design.html">Design</a> and Artificial Intelligence. 
     
     </p>
-    <div class="small-heading">See more ></div>
+    <div class="small-heading">
+      
+      <a href="#about">See more ></a></div>
   </div>
+
+  <!---social medias-->
+  <div id="social-container">
+  <h6><a href="https://www.instagram.com/el.izabeth/"><img src="/images/instagram.png" class="icon"></a></h6>
+  <h6><a href="https://www.linkedin.com/in/elizabeth-ling-50a417197/"><img src="/images/linkedin.png" class="icon"></a></h6>
+  <h6><a href="https://github.com/lingelizabeth"><img src="/images/github.png" class="icon"></a></h6>
   
+  </div>
+</div>
+
 </div>
 <img src="/images/elizabethling.jpg"  id="pfp">
 
 
-<!-- Page content -->
-<div class="content" >
+<div class="content" id="about">
+  <h2 class="playfair" id="about-me">About me</h2>
+  <div class="scrollanimation animated slideInLeft adr-4 adl-1 "> 
 
-  <!-- Home Section Redone as Content -->
-
-  <div class=" w3-padding-64" id="home" >
-    <div class="padding-64-lr">
-		    
-    
-    </div>
-
-    
-    
+  <div id="block2">
+    <p id="long-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. When I'm not coding, I do graphic/layout design for various groups, including <a href="https://www.wecodeharvard.org/">WeCode</a> and the <a href="http://harvardichthus.org/">Ichthus</a>.</p>
   </div>
+</div>
+</div>
 
 
-  <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about" >
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min"  width="600" height="750">
-    </div>
+<div class="content" id="projects">
+  <div id="projects-head">
+    <h1 class="playfair" >Projects</h1>
+    <p>A collection of personal, research, and academic coding projects.</p>
 
-    <div class="w3-col m6 w3-padding-large roboto">
-      <h1 class="w3-center playfair">ABOUT ME</h1><br>
-      I'm a Computer Science concentrator at Harvard University with an interest in Artificial Intelligence and solving modern health-care problems.
-    <br>When I'm not coding, I do graphic/layout design for various groups, including <a href="https://www.wecodeharvard.org/">WeCode</a> and the <a href="http://harvardichthus.org/">Ichthus</a>.</div>
   </div>
+  <span class="dot" id="one"><h1 class="playfair number">1</h1></span>
+  
+
+</div>
+
+
+
   
   <hr>
   
