@@ -22,7 +22,7 @@ h2{
 	position: absolute;
 	margin: 20px 0px 0px 39% ;
 	padding: 5px 0 5px 10px;
-	width:300px;
+	width:350px;
 	border-left: black 1px solid;
 }
 #pfp{
@@ -59,12 +59,17 @@ h2{
 p{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 16px; /*24 pt font */
+	font-size: 20px; /*24 pt font */
 }
 .small-heading{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 20px;
+}
+.medium-heading{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 32px;
 }
 .topnav{
 	padding-left: 10px;
@@ -140,12 +145,12 @@ a{
 }
 #long-description{
 	margin: 60px 0 0 30%;
-	width: 250px;
+	width: 350px;
 }
 /* begin projects section */
 #projects{
 	background-color: #C4E5F8;
-	height: 1000px;
+	height: 1100px;
 }
 #projects-head{
 	margin: 0 0;
@@ -169,7 +174,78 @@ a{
 	position: absolute;
 	margin: 30px 20px 20px 100px;
 }
-  
+.project-container{
+	display: flex;
+	flex-direction: column;
+	width: 470px;
+}  
+#project-one{
+	position: absolute;
+	margin: 20px 10px 10px 250px;
+}
+.project-text{
+	margin: 10px 0;
+}
+.view-button{
+	background-color: black;
+	color: white;
+	width: 200px;
+	height: 60px;
+	border-radius: 70px;
+	border: none;
+	transition: background-color 0.3s;
+
+}
+.view-button:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+#p1-button{
+	position: absolute;
+	margin: 220px 10px 10px 220px;
+}
+#two{
+	position: absolute;
+	margin: 230px 20px 20px 50vw;
+}
+#project-two{
+	position: absolute;
+	margin: 230px 10px 10px 60vw;
+}
+#button-container{
+	position: absolute;
+	margin: 400px 10px 10px 60vw;
+	display: flex;
+	justify-content: space-between;
+	width: 420px;
+}
+#three{
+	position: absolute;
+	margin: 400px 20px 20px 20vw;
+}
+#project-three{
+	position: absolute;
+	margin: 520px 10px 10px 15vw;
+}
+#p3-button{
+	position: absolute;
+	margin: 690px 10px 10px 20vw;
+}
+#portfolio{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#footer{
+	width: 100%;
+	background-color: black;
+	color: white;
+	height: 10vh;
+	margin: 0 0 -10px 0;
+
+}
 
 .responsive {
   max-width: 100%;
