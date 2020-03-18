@@ -23,6 +23,7 @@ h2{
 	margin: 20px 0px 0px 39% ;
 	padding: 5px 0 5px 10px;
 	width:350px;
+	height: auto;
 	border-left: black 1px solid;
 }
 #pfp{
@@ -117,6 +118,7 @@ p{
 	flex-direction: column;
 	justify-content: space-between;
 	height: 150px;
+	width: 40px;
 }
 h6{
 	margin: 0 0;
@@ -245,6 +247,22 @@ a{
 	height: 10vh;
 	margin: 0 0 -10px 0;
 
+}
+
+h1.animated {
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;
+	animation-delay: 1.5s;
+  }
+#social-container.animated{
+	animation-duration: 1.5s;
+	animation-delay: 0.5s;
+}
+#block1.animated{
+	animation-duration: 1.5s;
+}
+#block2.animated{
+	animation-duration: 2s;
 }
 
 .responsive {
