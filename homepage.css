@@ -117,7 +117,7 @@ p{
 	margin: 60px 0 0 31%;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 150px;
+	height: 140px;
 	width: 40px;
 }
 h6{
@@ -125,6 +125,7 @@ h6{
 }
 .icon{
 	width: 30px;
+	font-size:26px;
 }
 a{
 	text-decoration: none;
