@@ -12,13 +12,29 @@
 body{
 	margin: 0 0;
 }
+#blog-header{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h3{
+	font-family:'Playfair Display', serif;
+	font-size: 64px;
+}
+
 .posts{
 	position: absolute;
 	width: 80vw;
 	border-right: black 1px solid;
 }
+.post-wrapper{
+	width: 70vw;
+	padding-left: 10vw;
+}
 .post-date{
-	right: 40px;
+	float: right;
+	margin-right: 30px;
 }
 .post-title{
 	font-family: Arial, Helvetica, sans-serif;
