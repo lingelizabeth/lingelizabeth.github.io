@@ -4,27 +4,52 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="../homepage.css">
+
+			<!---fonts and icons-->
+			<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:400,600&display=swap" rel="stylesheet">
+			<script src="https://kit.fontawesome.com/2cbcc2922b.js" crossorigin="anonymous"></script>
+
 		</head>
 		<body>
+			<div class="page-container-2">
 			<div class="topnav" id="topnav">
 
-				<a class="active" href="#home">Home</a>
-				<a href="#projects">Projects</a>
-				<a href="#portfolio">Portfolio</a>
-				<a href="https://lingelizabeth.github.io/blog/">Blog</a>
-				<div class="float-right"><a href="#contact" >Contact</a></div>
+				<a class="active" href="https://lingelizabeth.github.io/">Home</a>
+				<a href="https://lingelizabeth.github.io/#projects">Projects</a>
+				<a href="https://lingelizabeth.github.io/#portfolio">Portfolio</a>
+				<a href="#blog/">Blog</a>
+				<div class="float-right"><a href="https://lingelizabeth.github.io/#contact" >Contact</a></div>
 				
 			  </div>
-			<div class="container">
+			
+			<div id="blog" class="container">
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
 			<footer>
-	    		<ul>
-	        		<li><a href="https://www.linkedin.com/in/elizabeth-ling-50a417197/">linkedin</a></li>
-	        		<li><a href="https://github.com/lingelizabeth">github.com/lingelizabeth</a></li>
-				</ul>
+	    		<!---footer--->
+				<div id="footer" class="raleway">
+					<div>LINKS<br> <a href="https://lingelizabeth.github.io/">Home</a> | <a href="https://lingelizabeth.github.io/#projects">Projects</a> |
+					<a href="https://lingelizabeth.github.io/#portfolio">Portfolio</a> |
+					<a href="#blog">Blog</a>
+					</div>
+					<div style="display: flex; flex-direction: column; align-items: center;">
+					<div>STAY IN TOUCH</div>
+					<div id="bot-social-container" class="social-container">
+						<h6><a href="mailto:elizabethling@college.harvard.edu"><i class="icon far fa-envelope"></i></a></h6>
+						<h6><a href="https://www.linkedin.com/in/elizabeth-ling-50a417197/"><i class="icon fab fa-linkedin-in"></i></a></h6>
+						<h6><a href="https://github.com/lingelizabeth"><i class="icon fab fa-github"></i></a></h6>
+						
+						</div>
+					</div>
+					<div>
+					<i class="far fa-copyright"></i> 2020 Elizabeth Ling
+					</div>
+				
+				</div>
 			</footer>
+			</div>
 		</body>
 	</html>

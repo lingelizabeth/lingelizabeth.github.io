@@ -57,6 +57,11 @@ h2{
 .playfair{
 	font-family:'Playfair Display', serif;
 }
+.raleway{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 16px; 
+}
 p{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
@@ -71,6 +76,11 @@ p{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 32px;
+}
+#page-container{
+	position: relative;
+	min-height: 100vh;
+	overflow:hidden;
 }
 .topnav{
 	padding-left: 10px;
@@ -109,16 +119,25 @@ p{
 	margin-top: 0px;
 	z-index:0;
 	width: 90vw;
-	height: 85%;
+	height: 85vh;
 
 }
-#social-container{
+.social-container{
 	display: flex;
+	justify-content: space-between;
+	
+}
+#top-social-container{
 	margin: 60px 0 0 31%;
 	flex-direction: column;
-	justify-content: space-between;
 	height: 140px;
 	width: 40px;
+}
+#bot-social-container{
+	flex-direction: row;
+	height: 40px;
+	width: 140px;
+	padding-left: 10px;
 }
 h6{
 	margin: 0 0;
@@ -241,13 +260,19 @@ a{
 	justify-content: center;
 	align-items: center;
 }
+#content-wrap {
+	padding-bottom: 15vh;    /* Footer height */
+  }
 #footer{
 	width: 100%;
 	background-color: black;
 	color: white;
-	height: 10vh;
-	margin: 0 0 -10px 0;
-
+	height: 15vh;
+	bottom: 0;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 h1.animated {
@@ -255,7 +280,7 @@ h1.animated {
 	animation-iteration-count: 1;
 	animation-delay: 1.5s;
   }
-#social-container.animated{
+#top-social-container.animated{
 	animation-duration: 1.5s;
 	animation-delay: 0.5s;
 }
@@ -266,13 +291,8 @@ h1.animated {
 	animation-duration: 2s;
 }
 
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
-.black{
-	color:#272727;
-}
+
+
 /***colors:
 grey: #CACFD6
 black: #272727
