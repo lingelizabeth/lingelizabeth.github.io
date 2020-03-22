@@ -50,6 +50,6 @@ h3{
 }
 a:visited 
 {
-    text-decoration: none; 
-    color: white; 
+	text-decoration: none; 
+	color: initial;
 }
