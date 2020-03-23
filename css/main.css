@@ -15,9 +15,14 @@ body{
 #blog-header{
 	position: absolute;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
 	width:100vw;
-	height: 150px;
+	height: 200px;
+	margin-top: 40px;
+	background-color: pink; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(to bottom right, cornflowerblue, pink);
 }
 .blog-title{
 	padding-left: 10vw;
@@ -31,26 +36,31 @@ h3{
 	position: absolute;
 	width: 80vw;
 	border-right: black 1px solid;
-	margin: 170px 0 0 0;
+	margin: 240px 0 0 0;
 	padding: 20px 10px 20px 0px;
 }
 .post-wrapper{
-	width: 70vw;
-	padding-left: 10vw;
+	width: 200px;
+	height: 180px;
+	padding: 20px;
 	list-style-type: none;
+	border-radius: 10px;
+	box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.2);
+	margin: 10px 10px 10px 40px;
 }
 .post-date{
 	float: right;
-	margin-right: 30px;
+	margin: 10px 40px 10px 0px;
 }
 .post-title{
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	font-size: 50px;
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	line-height: 40px;
 	color: black;
 }
 a{
 	text-decoration: none;
+	color: white;
 }
 #footer.a{
 	text-decoration: none;
