@@ -25,7 +25,9 @@ body{
   	background-image: linear-gradient(to bottom right, cornflowerblue, pink);
 }
 .blog-title{
-	padding-left: 10vw;
+	padding-left: 5vw;
+	line-height: 55px;
+	margin: 5px 10px;
 }
 h3{
 	font-family:'Playfair Display', serif;
@@ -49,7 +51,7 @@ h3{
 	margin: 10px 10px 10px 40px;
 }
 .post-date{
-	float: right;
+	float: left;
 	margin: 10px 40px 10px 0px;
 }
 .post-title{
