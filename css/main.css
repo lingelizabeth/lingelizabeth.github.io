@@ -1,7 +1,6 @@
 
 .container{
-	position: absolute;
-	margin: 50px 0px;
+	margin: 0px 0px;
 }
 /* .page-container-2{
 	position: relative;
@@ -13,14 +12,12 @@ body{
 	margin: 0 0;
 }
 #blog-header{
-	position: absolute;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
 	width:100vw;
-	height: 300px;
-	margin-top: 30px;
+	height: 400px;
 	background-color: pink; /* For browsers that do not support gradients */
   	background-image: linear-gradient(to bottom right, cornflowerblue, pink);
 }
@@ -35,10 +32,9 @@ h3{
 }
 
 .posts{
-	position: absolute;
 	width: 100vw;
 	height: 300px;
-	margin: 340px 0 0 0;
+	margin: -150px 0 0 0;
 	padding: 20px 10px 20px 0px;
 }
 .post-wrapper{
@@ -46,6 +42,7 @@ h3{
 	height: 180px;
 	padding: 20px;
 	list-style-type: none;
+	background-color: white;
 	border-radius: 10px;
 	box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.2);
 	margin: 10px 10px 10px 40px;
