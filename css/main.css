@@ -20,7 +20,7 @@ body{
 	justify-content: center;
 	width:100vw;
 	height: 300px;
-	margin-top: 40px;
+	/* margin-top: 40px; */
 	background-color: pink; /* For browsers that do not support gradients */
   	background-image: linear-gradient(to bottom right, cornflowerblue, pink);
 }
