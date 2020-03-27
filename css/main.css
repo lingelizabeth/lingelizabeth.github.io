@@ -39,7 +39,8 @@ body{
 	line-height: 55px;
 	margin: 5px 10px;
 }
-.post-header-title{
+#post-header-title{ 
+	/* for positioning, since this needs to be overlapping w the image */
 	margin: -400px 0 0 0px;
 	color: white;
 	text-shadow: -2px 2px 5px rgb(0, 0, 0, 0.2);
@@ -75,8 +76,8 @@ h3{
 	line-height: 40px;
 	color: black;
 }
-.post{
-	margin: 100px 0px 0px 40px;
+.post-container{
+	margin: 50px 40px 0px 40px;
 }
 .post-header-img{
 	margin:0 0;
