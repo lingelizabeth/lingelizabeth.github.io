@@ -12,11 +12,13 @@ layout: default
   <p class="meta blog-title">{{ page.date | date_to_string }}</p>
 </div>
 
-<i href="#post-start" class="fas fa-chevron-down" style="position:absolute;margin:-100px 0 0 45vw;"></i>
+<a href="#post-start">
+<i  class="fas fa-chevron-down fa-2x" style="position:absolute;margin:-100px 0 0 45vw;"></i>
+</a>
 
 
 <div class="post-container" id="post-start">
-  <p class="large-heading" style="padding-bottom: 20px;">{{ page.title }}</p>
+  <p class="large-heading">{{ page.title }}</p>
   <p>{{ page.date | date_to_string }} | By Elizabeth Ling</p>
   {{ content }}
 </div>

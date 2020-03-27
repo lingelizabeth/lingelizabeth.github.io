@@ -69,6 +69,8 @@ p{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 64px;
+	/* only place this is used is blog 2nd heading */
+	margin: 0px 0px 30px 0px; 
 }
 .page-container{
 	position: relative;
