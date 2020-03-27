@@ -22,19 +22,27 @@ body{
 	padding-top: 50px;
 }
 #blog-header{
+
+	background-color: pink; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(to bottom right, cornflowerblue, pink);
+}
+.header{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
 	width:100vw;
 	height: 400px;
-	background-color: pink; /* For browsers that do not support gradients */
-  	background-image: linear-gradient(to bottom right, cornflowerblue, pink);
 }
 .blog-title{
 	padding-left: 5vw;
 	line-height: 55px;
 	margin: 5px 10px;
+}
+.post-header-title{
+	margin: -400px 0 0 0px;
+	color: white;
+	text-shadow: -2px 2px 5px rgb(0, 0, 0, 0.2);
 }
 h3{
 	font-family:'Playfair Display', serif;
@@ -70,13 +78,18 @@ h3{
 .post{
 	margin: 100px 0px 0px 40px;
 }
-.post-header{
+.post-header-img{
 	margin:0 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
 	width: 100vw;
+}
+.post-header-img img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 a{
 	text-decoration: none;
