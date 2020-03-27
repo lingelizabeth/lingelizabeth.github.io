@@ -79,7 +79,7 @@ h3{
 	color: black;
 }
 .post-container{
-	margin: 50px 40px 0px 40px;
+	margin: 70px 40px 0px 40px;
 }
 .post-header-img{
 	margin:0 0;
@@ -94,6 +94,10 @@ h3{
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
+}
+#down-button{
+	position:absolute;
+	margin:-70px 0 0 50vw;
 }
 a{
 	text-decoration: none;
