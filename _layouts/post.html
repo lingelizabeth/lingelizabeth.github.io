@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<div class="post-header">
+  {% if page.related_image %}
+    <img src="{{ page.related_image }}" alt="">
+  {% endif %}
+</div>
+
 <h3>{{ page.title }}</h3>
 
 <p class="meta">{{ page.date | date_to_string }}</p>

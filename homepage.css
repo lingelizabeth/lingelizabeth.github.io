@@ -74,9 +74,11 @@ p{
 	padding-left: 10px;
 	background-color: transparent;
 	overflow: hidden;
-	position: absolute;
 	z-index: 3;
 	width: 100vw;
+}
+#topnav-home{
+	position: absolute;
 }
 /*links inside  navigation bar */
 .topnav a {
