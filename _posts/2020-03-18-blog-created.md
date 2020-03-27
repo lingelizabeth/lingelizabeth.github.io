@@ -2,7 +2,7 @@
 layout: post
 title: "Lizzy makes a blog"
 date: 2020-03-18
-related_image: {{site.baseurl}}/images/sunset_talk.jpg
+related_image: /images/sunset_talk.jpg
 ---
 
 Hello! 
