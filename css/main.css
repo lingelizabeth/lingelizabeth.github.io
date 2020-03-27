@@ -44,6 +44,8 @@ body{
 	margin: -400px 0 0 0px;
 	color: white;
 	text-shadow: -2px 2px 5px rgb(0, 0, 0, 0.2);
+	background: transparent;
+	background: linear-gradient(0deg, rgba(0,0,0,0.82) 0%, rgba(179,179,179,0.8224) 40%, rgba(255,255,255,0) 100%);
 }
 h3{
 	font-family:'Playfair Display', serif;
@@ -86,6 +88,7 @@ h3{
 	align-items: center;
 	overflow: hidden;
 	width: 100vw;
+	height:100vh;
 }
 .post-header-img img {
     flex-shrink: 0;
