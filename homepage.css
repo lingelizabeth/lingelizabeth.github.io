@@ -78,15 +78,17 @@ p{
 	overflow:hidden;
 }
 .topnav{
+	position: fixed;
+	top: 0;
 	padding-left: 10px;
 	background-color: transparent;
 	overflow: hidden;
 	z-index: 3;
 	width: 100vw;
 }
-#topnav-home{
+/* #topnav-home{
 	position: absolute;
-}
+} */
 /*links inside  navigation bar */
 .topnav a {
 	float: left;
