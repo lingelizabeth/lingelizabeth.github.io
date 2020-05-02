@@ -12,13 +12,15 @@ But in my quarantine-induced reflections, I’ve realized that creating becomes 
 
 If this relates to you, here is the mindset-changing advice I have recently picked up from YouTube videos and email newsletters:
 
+<p>
 1. Think about your art and others’ like parallel bus routes that diverge only after the third stop. When you start out, your work may look like everyone else’s, but if you stay on the bus, you will end up somewhere unique.
 2. Your inner critic is just yourself (in disguise) and it doesn’t know any better than you do.
 3. Think about how badly you want your story to be told (or your art to be seen, or your music to be heard.) Decide that you want this more than you care about those inner critics, or any external critics. 
 In other words, make the art for yourself first. Write the story you want to read.
+</p>
 
 I’ve wanted to start this blog for a little while now. (Like a month.) Some of the fears I’ve had are 1) other people have blogs too, and if their thoughts are more cohesive and insightful than mine there is no need for me to write! and 2) if I’m going to blog, I should try to write perfectly well-polished Medium-style articles that offer a nuanced blend of self-reflection and psychology facts so I can simultaneously educate others and make money while I’m at it!!! Of course, if you think like this, you’ll never get anything done.
 
 So I’ve started to be very curious on what is possible if you defy those negative voices and stand with personal conviction in your work and yourself. And so, here is the start of a 30 day experiment. My goal is to do and document things every day that are scary, or could end in failure. At the very least, I’ll be posting more on here and my design account (@lizdsgn), which is scary enough in itself, and I’ll keep you updated on what I find.
 
-Photo by [Alice Donovan Rouse] (https://unsplash.com/@alicekat). 
+Photo by [Alice Donovan Rouse](https://unsplash.com/alicekat). 
