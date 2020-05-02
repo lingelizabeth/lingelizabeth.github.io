@@ -6,7 +6,7 @@ related_image: /images/alice-donovan-rouse.jpg
 ---
 May 1st.
 
-I want this to be a month of overcoming fear of failure, and no, not just because my Co-star says “the general theme of your life during this period is to confidently pursue new passions”. (It’s an astrologer’s perfect generalization, because so many of us have started to pursue baking, singing, coding, photographing, etc and posting it online.) Personally, I’ve started some new hobbies but limited sharing to close friends, preferring to make things for the sake of making or improving my skillset. At least, this is how I justified it to myself.
+I want this to be a month of overcoming fear of failure, and no, not just because my Co-star says “the general theme of your life during this period is to <ins>confidently pursue new passions<\ins>”. (It’s an astrologer’s perfect generalization, because so many of us have started to pursue baking, singing, coding, photographing, etc and posting it online.) Personally, I’ve started some new hobbies but limited sharing to close friends, preferring to make things for the sake of making or improving my skillset. At least, this is how I justified it to myself.
 
 But in my quarantine-induced reflections, I’ve realized that creating becomes so much more difficult once there is an audience involved, and the associated fear is what has kept me from openly sharing. It’s when I start thinking about who will see my work and how many people that’ll be and how I maximize that impression and what exactly that impression will be. It’s a endless narrative from my vicious inner critic, but one that must be overcome since it will never be silenced or satisfied. A perfectionist has no place in a artist’s undertakings: a draft will never be fully completed, a drawing will always have slightly distorted shadows, there will always be others who have done similarly but better.
 
@@ -21,4 +21,4 @@ I’ve wanted to start this blog for a little while now. (Like a month.) Some of
 
 So I’ve started to be very curious on what is possible if you defy those negative voices and stand with personal conviction in your work and yourself. And so, here is the start of a 30 day experiment. My goal is to do and document things every day that are scary, or could end in failure. At the very least, I’ll be posting more on here and my design account (@lizdsgn), which is scary enough in itself, and I’ll keep you updated on what I find.
 
-Photo by [Alice Donovan Rouse] (https://unsplash.com/@alicekat "Unsplash"). 
+Photo by [Alice Donovan Rouse] (https://unsplash.com/@alicekat). 
