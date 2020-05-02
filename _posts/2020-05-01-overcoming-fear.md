@@ -23,4 +23,4 @@ I’ve wanted to start this blog for a little while now. (Like a month.) Some of
 
 So I’ve started to be very curious on what is possible if you defy those negative voices and stand with personal conviction in your work and yourself. And so, here is the start of a 30 day experiment. My goal is to do and document things every day that are scary, or could end in failure. At the very least, I’ll be posting more on here and my design account (@lizdsgn), which is scary enough in itself, and I’ll keep you updated on what I find.
 
-Photo by [</p>Alice Donovan Rouse</p>](https://unsplash.com/alicekat). 
+Photo by [Alice Donovan Rouse](https://unsplash.com/alicekat).
