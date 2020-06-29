@@ -1,1 +1,1 @@
-Currently in progress. Check back soon!
+HTML/CSS personal website with a Jekyll based blog.
