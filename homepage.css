@@ -161,7 +161,7 @@ a{
 	position: absolute;
 	margin: 97px 50px 10px 0;
 	width: 55vw;
-	height: 80vh;
+	height: 60vh;
 	z-index:0;
 }
 #long-description{
@@ -254,7 +254,7 @@ a{
 	position: absolute;
 	margin: 690px 10px 10px 20vw;
 }
-#portfolio{
+#design{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -278,11 +278,11 @@ a{
 h1.animated {
 	animation-duration: 1.5s;
 	animation-iteration-count: 1;
-	animation-delay: 1.5s;
+	animation-delay: 0.5s;
   }
 #top-social-container.animated{
 	animation-duration: 1.5s;
-	animation-delay: 0.5s;
+	animation-delay: 0.2s;
 }
 #block1.animated{
 	animation-duration: 1.5s;
