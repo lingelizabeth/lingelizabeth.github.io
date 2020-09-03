@@ -160,6 +160,7 @@ a{
 	background-color: #F0DDE6;
 	position: absolute;
 	margin: 97px 50px 10px 0;
+	padding-top: 50px;
 	width: 55vw;
 	height: 60vh;
 	z-index:0;
@@ -169,7 +170,9 @@ a{
 	width: 400px;
 	font-size: 14px;
 }
-
+.underline{
+	border-bottom: 1px solid black;
+}
 /* begin projects section */
 #projects{
 	background-color: #C4E5F8;
