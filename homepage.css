@@ -164,11 +164,12 @@ a{
 	height: 60vh;
 	z-index:0;
 }
-#long-description{
-	margin: 60px 0 0 30%;
+.long-description{
+	margin: 15px 0 0 30%;
 	width: 400px;
 	font-size: 14px;
 }
+
 /* begin projects section */
 #projects{
 	background-color: #C4E5F8;
